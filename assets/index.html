@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulario de Registro y inicio de sesión</title>
+</head>
+<body>
+    <!--Esto es un formuario de registro e inicio de sesiòn-->
+    <div class="container-form register">
+        <div class="informacion">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Para que disfrutes de tus libros favoritos inicia sesion con tus datos</p>
+                <input type="button" value="Iniciar Sesión" id="sign-in">
+            </div>
+        </div>
+        <div class="form-informacion">
+            <div class="form-informacion-childs">
+                <h2>Crear una Cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>o usa tu email para registrarte</p>
+                <form class="form form-register" novalidate>
+                    <!--quita la alerta que  sale en nuestro correo electronico-->
+                    <!--Lo que hacemos en nuestro formulario es poner div y en cada uno de ellos va nuestro label, lo que hace esto es que a la hora de dar la alerta se ponga debajo de nuestro -->
+                    <div>
+                        <label>
+                            <i class='bx bx-user'></i>
+                            <input type="text" placeholder="Nombre Usuario" name="userName">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <i class='bx bx-envelope'></i>
+                            <input type="email" placeholder="Corrreo electronico" name="userEmail">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <i class='bx bx-lock-alt'></i>
+                            <input type="password" placeholder="Contraseña" name="userPassword">
+                        </label>
+                    </div>
+                    <input type="submit" value="Registrarse">
+                    <div class="alerta-error">Todos los campos son obligatorios</div>
+                    <div class="alerta-exito">Te registraste correctamente</div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!--replica de otro formulario para el cambio de inicio de sesion-->
+    <!--Esto es un formuario de registro e inicio de sesiòn-->
+    <div class="container-form login hide">
+        <div class="informacion">
+            <div class="info-childs">
+                <h2>Bienvenido Nuevamente</h2>
+                <p>Si aùn no tienes una cuenta por favor registrese aquì</p>
+                <input type="button" value="Registrarse" id="sign-up">
+            </div>
+        </div>
+        <div class="form-informacion">
+            <div class="form-informacion-childs">
+                <h2>Crear una Cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>o Iniciar Sesiòn con una cuenta</p>
+                <form class="form form-login" novalidate>
+                    <div>
+                        <label>
+                            <i class='bx bx-envelope'></i>
+                            <input type="email" placeholder="Corrreo electronico" name="userEmail">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <i class='bx bx-lock-alt'></i>
+                            <input type="password" placeholder="Contraseña" name="userPassword">
+                        </label>
+                    </div>
+                    <input type="submit" value="Iniciar Sesiòn">
+                    <a href="index.php"></a>
+                    <div class="alerta-error">Todos los campos son obligatorios</div>
+                    <div class="alerta-exito">Iniciaste sesiòn correctamente</div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/scipt.js"></script>
+    <script src="js/register.js" type="module"></script>
+    <script src="js/login_modulo.js" type="module"></script>
+</body>
+</html>
