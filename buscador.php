@@ -79,7 +79,7 @@ $categoria = get_all_categoria($conn);
       </div>
     </nav><br>
 
-    Resultados de busqueda <b><?= $key ?></b>
+    Resultados de búsqueda <b><?= $key ?></b>
     <div class="d-flex pt-3">
       <?php if ($libros == 0) { ?>
 
@@ -110,7 +110,7 @@ $categoria = get_all_categoria($conn);
 
                   <?= $libro['descripcion'] ?>
 
-                  <br><i><b>Categoria:
+                  <br><i><b>Categoría:
 
                       <?php foreach ($categoria as $categorias) {
                         if ($categorias['id'] == $libro['categoria_id']) {

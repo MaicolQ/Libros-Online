@@ -92,7 +92,7 @@ $categoria = get_all_categoria($conn);
         <div class="alert alert-warning text-center p-5" role="alert">
           <img src="img/vacios.jpg" width="100">
           <br>
-          No hay ningun libro en la base de datos
+          No hay ningún libro en la base de datos
         </div>
 
       <?php } else { ?>
@@ -149,7 +149,7 @@ $categoria = get_all_categoria($conn);
           <?php if ($categoria == 0) {
           //aqui no hay que hacer nada
         } else { ?>
-            <a href="#" class="list-group-item list-group-item-action active">Categoria</a>
+            <a href="#" class="list-group-item list-group-item-action active">Categoría</a>
             <?php foreach ($categoria as $categorias) { ?>
 
               <a href="categoria.php?id=<?= $categorias['id'] ?>"

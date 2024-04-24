@@ -28,10 +28,10 @@ if (
 
   <!--............................................................-->
   <!DOCTYPE html>
-  <html lang="en">
+  <html lang="es-CO">
 
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 
@@ -64,7 +64,7 @@ if (
                 <a class="nav-link" href="agregar_libro.php">Agregar Libro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="agregar_categoria.php">Agregar Categoria</a>
+                <a class="nav-link" href="agregar_categoria.php">Agregar Categoría</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="agregar_autor.php">Agregar Autor</a>
@@ -110,7 +110,7 @@ if (
         <div class="alert alert-warning text-center p-5" role="alert">
           <img src="img/vacios.jpg" width="100">
           <br>
-          No hay ningun libro en la base de datos
+          No hay ningún libro en la base de datos
 
         </div>
       <?php } else { ?>
@@ -121,12 +121,12 @@ if (
           <thead>
             <tr>
               <th>#</th>
-              <th>Titulo</th>
+              <th>Título</th>
               <th>Autor</th>
-              <th>Descripcion</th>
-              <th>Categorìa</th>
-              <th>precio</th>
-              <th>Accion</th>
+              <th>Descripción</th>
+              <th>Categoría</th>
+              <th>Precio</th>
+              <th>Acción</th>
             </tr>
           </thead>
           <tbody>
@@ -193,18 +193,18 @@ if (
         <div class="alert alert-warning text-center p-5" role="alert">
           <img src="img/vacios.jpg" width="100">
           <br>
-          No hay ninguna categoria en la base de datos
+          No hay ninguna categoría en la base de datos
 
         </div>
       <?php } else { ?>
         <!--lista de todas las categorias-->
-        <h4 class="mt-5">Todas las Categorias</h4>
+        <h4 class="mt-5">Todas las Categorías</h4>
         <table class="table table-bordered shadow">
           <thead>
             <tr>
               <th>#</th>
-              <th>Nombre de la Categoria</th>
-              <th>Accion</th>
+              <th>Nombre de la Categoría</th>
+              <th>Acción</th>
             </tr>
 
           </thead>
@@ -234,7 +234,7 @@ if (
         <div class="alert alert-warning text-center p-5" role="alert">
           <img src="img/vacios.jpg" width="100">
           <br>
-          No hay ningun autor en la base de datos
+          No hay ningún autor en la base de datos
 
         </div>
       <?php } else { ?>
@@ -245,7 +245,7 @@ if (
             <tr>
               <th>#</th>
               <th>Nombre del Autor</th>
-              <th>Accion</th>
+              <th>Acción</th>
             </tr>
 
           </thead>

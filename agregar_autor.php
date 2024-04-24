@@ -10,10 +10,10 @@ if (
 
   <!--............................................................-->
   <!DOCTYPE html>
-  <html lang="en">
+  <html lang="es-CO">
 
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 
@@ -46,7 +46,7 @@ if (
                 <a class="nav-link" href="agregar_libro.php">Agregar Libro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="agregar_categoria.php">Agregar Categoria</a>
+                <a class="nav-link" href="agregar_categoria.php">Agregar Categoría</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="agregar_autor.php">Agregar Autor</a>

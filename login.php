@@ -35,7 +35,7 @@ if (
 					</div>
 				<?php } ?>
 				<div class="mb-3">
-					<label for="exampleInputEmail1" class="form-label">Coreo</label>
+					<label for="exampleInputEmail1" class="form-label">Correo</label>
 					<input type="email" class="form-control" name="email" id="exampleInputEmail1"
 						aria-describedby="emailHelp">
 				</div>

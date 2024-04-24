@@ -15,7 +15,7 @@ if (
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Agregar Categoria</title>
+    <title>Agregar Categoría</title>
 
     <!--Boostrap 5 cdn-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -45,7 +45,7 @@ if (
                 <a class="nav-link" href="agregar_libro.php">Agregar Libro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="agregar_categoria.php">Agregar Categoria</a>
+                <a class="nav-link active" href="agregar_categoria.php">Agregar Categoría</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="agregar_autor.php">Agregar Autor</a>
@@ -63,7 +63,7 @@ if (
         style="width: 90%; max-width: 50rem;">
 
         <h1 class="text-center pb-5 display-4 fs-3">
-          Agregar Nueva Categoria
+          Agregar Nueva Categoría
         </h1>
 
         <?php if (isset($_GET['error'])) { ?>
@@ -79,10 +79,10 @@ if (
         <?php } ?>
 
         <div class="mb-3">
-          <label class="form-label">Nombre de la Categoria</label>
+          <label class="form-label">Nombre de la Categoría</label>
           <input type="text" class="form-control" name="nombre_categoria">
         </div>
-        <button type="submit" class="btn btn-primary">Agregar Categoria</button>
+        <button type="submit" class="btn btn-primary">Agregar Categoría</button>
       </form>
     </div>
   </body>

@@ -79,7 +79,7 @@ if (
                                 <a class="nav-link active" href="agregar_libro.php">Agregar Libro</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="agregar_categoria.php">Agregar Categoria</a>
+                                <a class="nav-link" href="agregar_categoria.php">Agregar Categoría</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="agregar_autor.php">Agregar Autor</a>
@@ -115,12 +115,12 @@ if (
                 <!--Agregamos datos al libro-->
 
                 <div class="mb-3">
-                    <label class="form-label">Titulo Libro</label>
+                    <label class="form-label">Título Libro</label>
                     <input type="text" class="form-control" value="<?= $titulo ?>" name="titulo_libro">
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label">Descripcion del Libro</label>
+                    <label class="form-label">Descripción del Libro</label>
                     <input type="text" class="form-control" value="<?= $desc ?>" name="libro_descripcion">
                 </div>
 
@@ -154,10 +154,10 @@ if (
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label">Categoria del Libro</label>
+                    <label class="form-label">Categoría del Libro</label>
                     <select name="categoria_libro" class="form-control">
                         <option value="0">
-                            Seleccionar Categoria
+                            Seleccionar Categoría
                         </option>
                         <?php
                         if ($categoria == 0) {
@@ -183,7 +183,7 @@ if (
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label">Caratula del Libro</label>
+                    <label class="form-label">Carátula del Libro</label>
                     <input type="file" class="form-control" name="caratula_libro">
                 </div>
 

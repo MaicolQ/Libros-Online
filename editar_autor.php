@@ -67,7 +67,7 @@ if (
                 <a class="nav-link" href="agregar_libro.php">Agregar Libro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="agregar_categoria.php">Agregar Categoria</a>
+                <a class="nav-link" href="agregar_categoria.php">Agregar Categoría</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="agregar_autor.php">Agregar Autor</a>
